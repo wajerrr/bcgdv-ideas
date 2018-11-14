@@ -1,0 +1,38 @@
+.idea-tile {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.idea-tile:hover .delete-button {
+    display: block;
+}
+
+.idea-tile input {
+    width: 80%;
+    background-color: transparent;
+    border: 0px solid;
+}
+
+.idea-tile .tile-create-date {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.idea-tile .tile-id {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.delete-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    display: none;
+    cursor: pointer;
+}
